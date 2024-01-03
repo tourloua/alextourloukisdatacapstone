@@ -1,0 +1,99 @@
+body {
+    background-color: #01063b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.centered-video {
+    width: 50vw;
+    height: 50vh;
+    margin: 0 25vw 0;
+}
+
+.centered-text {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    color: #faf9bb;
+    font-family: 'Fredoka', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.word-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.word-list label {
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.word-list label:hover {
+    color: white;
+}
+
+.ask {
+    color: #faf9bb;
+}
+
+.prepare {
+    color: #d2f5fc;
+}
+
+.process {
+    color: #fcd2d2;
+}
+
+.analyze {
+    color: #d2fce2;
+}
+
+.share {
+    color: #faf9bb;
+}
+
+.act {
+    color: #d2f5fc;
+}
+
+.back-text {
+    position: fixed;
+    top: -1vw;
+    left: 0.2%;
+    font-size: 2vw;
+    color: #faf9bb;
+    cursor: pointer;
+}
+
+.back-text:hover {
+    color: white;
+}
+
+.word-moved-down {
+    transform: translateY(3vh); /* Default value for other words */
+}
+
+.added-text {
+    color: #faf9bb;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.added-image img {
+    width: 100%; /* Ensure the image takes the full width */
+    margin-top: 10px;
+    border-radius: 8px; /* Optional: Add border-radius to the image */
+}
+
+

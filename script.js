@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (backButton) {
     backButton.addEventListener('click', function () {
-      window.location.href = 'https://twitter.com/';//change link to project main page
+      window.location.href = 'https://tourloua.github.io/alextourloukis/';
     });
   }
 

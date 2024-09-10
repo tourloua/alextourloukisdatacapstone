@@ -23,6 +23,9 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+a {
+    color: #30fc03; /* Your desired color for the link */
+}
 
 .word-list {
     display: flex;
